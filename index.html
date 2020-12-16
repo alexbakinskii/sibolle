@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/cover.css">
     <link rel="manifest" href="manifest.json">
-    <!-- Bootstrap core CSS -->
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -35,28 +35,30 @@
   </head>
   <body class="text-center">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="masthead mb-auto">
+  <header class=" mb-auto"><!-- masthead -->
     <div class="inner">
-      <h3 class="masthead-brand">Cover</h3>
-      <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Contact</a>
-      </nav>
+      <img id="logo" src="images/logotype.png" class="img-fluid mb-1" alt="Sibolle. Sense of water">
     </div>
   </header>
 
   <main role="main" class="inner cover">
-    <h1 class="cover-heading">Cover your page.</h1>
-    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-    </p>
+    <div class="row justify-content-center">
+      <h1 class="cover-heading">ЗАКАЗ ДЕГУСТАЦИОННОГО НАБОРА С ДОСТАВКОЙ НА ДОМ</h1>
+      <div class="col-8 justify-content-center text-center">
+      <form class="form-signin">
+        <label for="inputName" class="sr-only">ИМЯ</label>
+        <input type="text" id="inputName" class="form-control" placeholder="ИМЯ" required autofocus>
+        <label for="inputTel" class="sr-only">ТЕЛЕФОН</label>
+        <input type="tel" id="inputTel" class="form-control" placeholder="ТЕЛЕФОН" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Заказать</button>
+      </form>
+      </div>
+  </div>
   </main>
 
   <footer class="mastfoot mt-auto">
     <div class="inner">
-      <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+      <img id="logo" src="images/drops1.png" class="img-fluid mb-1" alt="Sibolle.">
     </div>
   </footer>
 </div>
